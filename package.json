@@ -1,0 +1,49 @@
+{
+    "name": "crypto-aes",
+    "version": "1.0.0",
+    "description": "Javascript AES Crypto Library which support web and nodejs",
+    "keywords": [
+        "aes",
+        "client",
+        "crypto",
+        "decrypt",
+        "encrypt",
+        "javascript",
+        "js",
+        "node",
+        "web"
+    ],
+    "homepage": "https://github.com/kingller/crypto-aes",
+    "bugs": {
+        "url": "https://github.com/kingller/crypto-aes/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kingller/crypto-aes.git"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Kingller Tang",
+        "url": "https://github.com/kingller"
+    },
+    "files": [
+        "dist/*",
+        "package.json",
+        "README.md"
+    ],
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "build": "npm run clean && tsc --build tsconfig.json",
+        "clean": "rimraf ./dist",
+        "prepublishOnly": "npm run build"
+    },
+    "dependencies": {
+        "sjcl": "1.0.8"
+    },
+    "devDependencies": {
+        "@types/sjcl": "1.0.29",
+        "rimraf": "^3.0.2",
+        "typescript": "^3.7.3"
+    }
+}
