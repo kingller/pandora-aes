@@ -1,10 +1,10 @@
-# crypto-aes
+# pandora-aes
 Javascript AES Crypto Library which support web and nodejs
 
 ## Install
 
 ```bash
-npm install crypto-aes
+npm install pandora-aes
 ``` 
 
 ## Usage
@@ -14,7 +14,7 @@ AES 加密解密。默认使用`gcm`模式。
 ### createKey 生成密钥
 
 ```javascript
-import AES from 'crypto-aes';
+import AES from 'pandora-aes';
 
 AES.createKey();
 ```
@@ -24,7 +24,7 @@ AES.createKey();
 ### encrypt 加密
 
 ```javascript
-import AES from 'crypto-aes';
+import AES from 'pandora-aes';
 
 AES.encrypt(data, '密钥');
 ```
@@ -34,7 +34,7 @@ AES.encrypt(data, '密钥');
 ### decrypt 解密
 
 ```javascript
-import AES from 'crypto-aes';
+import AES from 'pandora-aes';
 
 AES.decrypt('encrypted message', '密钥');
 ```
@@ -44,7 +44,7 @@ AES.decrypt('encrypted message', '密钥');
 ### getKey 获取密钥
 
 ```javascript
-import AES from 'crypto-aes';
+import AES from 'pandora-aes';
 
 AES.getKey();
 ```
@@ -52,7 +52,7 @@ AES.getKey();
 ### setKey 设置密钥
 
 ```javascript
-import AES from 'crypto-aes';
+import AES from 'pandora-aes';
 
 AES.setKey('密钥');
 ```
@@ -60,7 +60,7 @@ AES.setKey('密钥');
 ### clearKey 清除密钥
 
 ```javascript
-import AES from 'crypto-aes';
+import AES from 'pandora-aes';
 
 AES.clearKey();
 ```
