@@ -1,6 +1,6 @@
 {
     "name": "pandora-aes",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Javascript AES Crypto Library which support web and nodejs",
     "keywords": [
         "aes",
