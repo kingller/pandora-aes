@@ -39,7 +39,7 @@
         "prepublishOnly": "npm run build"
     },
     "dependencies": {
-        "sjcl": "1.0.8"
+        "sjcl": "1.0.9"
     },
     "devDependencies": {
         "@types/sjcl": "1.0.29",
