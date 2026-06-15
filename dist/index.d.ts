@@ -20,7 +20,7 @@ export declare class AES {
         /** ts */
         ts?: number;
         /** mode */
-        mode?: "ccm" | "gcm" | "ocb2";
+        mode?: 'ccm' | 'gcm' | 'ocb2';
         /** iv (base64 encode) */
         iv?: string;
         /** salt (base64 encode) */
@@ -36,7 +36,7 @@ export declare class AES {
         /** ts */
         ts?: number;
         /** mode */
-        mode?: "ccm" | "gcm" | "ocb2";
+        mode?: 'ccm' | 'gcm' | 'ocb2';
         /** iv (base64 encode) */
         iv?: string;
         /** salt (base64 encode) */
